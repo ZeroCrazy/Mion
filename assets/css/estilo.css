@@ -1,0 +1,41 @@
+.card {
+	box-shadow: none;
+}
+h1.header {
+	color: #9C213C !important;
+}
+.btn {
+	background: #444;
+	opacity: 0.8;
+}
+.btn:hover {
+	background: #444;
+	opacity: 0.6;
+}
+.btn:focus {
+	background: #444;
+	opacity: 1;
+}
+.seleccionado {
+	background: #9C213C !important;
+}
+.seleccionado:hover {
+	background: #9C213C !important;
+}
+.seleccionado:focus {
+	background: #9C213C !important;
+}
+ul.collapsible {
+	box-shadow: none;
+}
+.collapsible-header {
+	background: #9C213C !important;
+    color: #fff;
+	opacity: 0.6;
+}
+.collapsible-header:focus {
+	opacity: 1;
+}
+.btn {
+	box-shadow: none;
+}

@@ -1,0 +1,9 @@
+RewriteEngine on
+
+RewriteRule ^home$ /index.php [L]
+RewriteRule ^logout$ /logout.php [L]
+RewriteRule ^login$ /login.php [L]
+RewriteRule ^alertas$ /alerts.php [L]
+
+RewriteRule ^contrato/importar/nuevo$ /pages/importar_contratos_nuevos.php [L]
+RewriteRule ^contrato/importar/nuevo/(.*)/(.*)/(.*)/(.*)$ /pages/importar_contratos_nuevos.php?we_dia=$1&we_mes=$2&we_ano=$3&subgerente2=$4 [L]

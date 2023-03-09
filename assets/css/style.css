@@ -1,0 +1,199 @@
+.vermas {
+	width: 100%;
+	background: rgba(0, 0, 0, 0.34);
+	padding: 5px 10px;
+    text-align: center;
+    border-radius: 1px;
+	cursor: pointer;
+	color: #fff;
+	transition: 0.6s;
+}
+
+.vermas i {
+	position: absolute;
+}
+
+.vermas:hover {
+	opacity: 0.6;
+}
+body {
+	background: #c9e6fc;
+}
+
+nav {
+	height: 64px !important;
+    line-height: 64px !important;
+}
+.btn {
+	background: #1976D2;
+}
+nav ul li a {
+	color: #fff !important;
+}
+
+nav .brand-logo {
+	color: #fff !important;
+}
+
+.resultadoBusquedaX {
+	color: #000;
+    letter-spacing: 1px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+	line-height: 34px;
+    height: 35px;
+    left: 0%;
+    top: 0%;
+    margin-top: 64px;
+    background: #ffffffbf;
+    padding: 0px 11px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.input-field .prefix.active {
+	color: #444 !important;
+}
+
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {	
+	/*border-bottom: 0px solid #444 !important;*/
+	box-shadow: none !important;
+    font-weight: 300 !important;
+}
+
+input:not([type]):focus:not([readonly])+label, input[type=text]:not(.browser-default):focus:not([readonly])+label, input[type=password]:not(.browser-default):focus:not([readonly])+label, input[type=email]:not(.browser-default):focus:not([readonly])+label, input[type=url]:not(.browser-default):focus:not([readonly])+label, input[type=time]:not(.browser-default):focus:not([readonly])+label, input[type=date]:not(.browser-default):focus:not([readonly])+label, input[type=datetime]:not(.browser-default):focus:not([readonly])+label, input[type=datetime-local]:not(.browser-default):focus:not([readonly])+label, input[type=tel]:not(.browser-default):focus:not([readonly])+label, input[type=number]:not(.browser-default):focus:not([readonly])+label, input[type=search]:not(.browser-default):focus:not([readonly])+label, textarea.materialize-textarea:focus:not([readonly])+label {
+	color: #444 !important;
+}
+
+.btn-floating.btn-large i {
+	color: #444 !important;
+}
+
+.tabs .indicator {
+	background-color: #444 !important;
+}
+
+.tabs .tab a:hover, .tabs .tab a.active {
+	color: #000;
+}
+
+.tabs .tab.disabled a, .tabs .tab.disabled a:hover {
+	color: #ccc;
+}
+
+.tabs .tab a {
+	color: #444;
+}
+
+.header-desplegable-li {
+	background: #444;
+}
+
+.header-desplegable-a {
+	color: #fff !important;border-top: 1px solid #fff;
+}
+
+.dropdown-content {
+	width: 300px !important;
+	top: 1px !important;
+}
+
+.dropdown-content li {
+	background-color: #fff;
+	text-align: center;
+}
+
+.dropdown-content li:hover, .dropdown-content li.active, .dropdown-content li.selected {
+	background-color: #fff;
+}
+
+.dropdown-content li>a, .dropdown-content li>span {
+	color: #1976D2 !important;
+	text-align: center;
+}
+
+.logo-bg {
+  padding: 20px;
+  background: #fff;
+  width: 207px;
+  border-radius: 200px;
+  height: 192px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.button-menu {
+  margin-top: 11px !important;
+  width: 36px !important;
+  height: 36px !important;
+}
+
+header, main, footer {
+  padding-left: 310px;
+}
+
+@media only screen and (max-width : 992px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+}
+
+@media only screen and (min-width : 601px) {
+  nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+    height: 64px;
+    line-height: 64px !important;
+  }
+}
+
+.side-nav li>a {
+  font-weight: 400 !important;
+}
+
+.btn-floating.btn-large {
+  background-color: transparent !important;
+  box-shadow: none;
+}
+
+nav ul li a:hover, nav ul li.active {
+  background-color: rgba(0, 0, 0, 0.15) !important;
+}
+
+li.divider {
+	background: rgba(0, 0, 0, 0.25);
+}
+
+.card {
+	border-radius: 0px !important;
+	box-shadow: none !important;
+}
+
+.preloader-background {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #eee;
+	position: fixed;
+	z-index: 100;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;	
+}
+
+.alerta {
+	position: absolute;
+    z-index: 10;
+    padding: 10px 40px;
+    color: #fff;
+    border-bottom: 2px solid #0000002e;
+    border-radius: 3px;
+    top: 15%;
+    left: 5%;
+}
+
+select {
+	background: #eaeaea !important;
+    border-bottom: 0px;
+    text-align: center;
+}

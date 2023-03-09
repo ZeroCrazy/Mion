@@ -1,0 +1,2 @@
+<?php require '../../inc/core.php';$Var = mysql_query("SELECT count(*) count FROM contratos_voids");$count_contratos_voids = mysql_fetch_assoc($Var); ?>
+<?php echo number_format($count_contratos_voids['count']); ?>
